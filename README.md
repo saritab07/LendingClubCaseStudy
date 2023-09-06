@@ -89,6 +89,28 @@ D) Bivariate analysis has been conducted on the Target Variable of “Loan Statu
 #### Analysis Conclusion
 It is noted that loan applicants for “Not Verified” Annual Salary have more Charged off loan status. This concludes that there is more probability of defaulting a loan in the Not verified category. The probable reasons could be the annual salary has been wrongly indicated by the loan applicant or could have changed(reduced) during the loan period due various reasons which might have led to the defaulting of loan repayment. 
 
+### Bivariate Analysis - Summary
+
+- Bivariate analysis has been conducted on the Target Variable of “Loan Status” = ‘Charged off’” for the below columns to identify the pattern for probable defaulting
+  - Purpose
+  - Grade
+  - Verification Status
+  - Term
+
+
+- Based on the univariate analysis conducted we notice that, the highest loans that were charged off were
+-   - Related to loans provided for the purpose of “Debt Consolidation"
+    - Related to “B” and “C” Grade
+    - Pertained to a non verified source as the “Verification Status” is “Not Verified”
+    - Pertain to 36 months “Term”
+
+#### Analysis Conclusion:
+- It is noted that loan applicants for “Debt Consolidation” purpose have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the Debt Consolidation category
+- It is noted that loan applicants for “Grade B” have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the Grade B category
+- It is noted that loan applicants for “Not Verified” Annual Salary have more Charged off loan status. This concludes that there is more probability of defaulting a loan in the Not verified category. The probable reasons could be the annual salary has been wrongly indicated by the loan applicant or could have changed(reduced) during the loan period due various reasons which might have led to the defaulting of loan repayment.
+- It is noted that loan applicants for “36 months” loan period have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the 36 month term category. The probable reasons could be that the Monthly Installment of repayment amount(EMI) would have been higher than the repayment capacity of the loan applicant. Therefore, checking the monthly salary and assessing the repayment capacity month-wise would be recommended. There could be multiple other parallel loans that an applicant has which could be leading to defaulting. Therefore, checking for other existing loans would be recommended.
+
+
 
 Created by [@githubusername] - feel free to contact me!
 
