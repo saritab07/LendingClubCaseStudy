@@ -21,7 +21,7 @@ Problem statement is to identify patterns that can provide guidance to the compa
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## Overall Approach for Analysis
-- Provide general information about your project here.
+-The overall approach taken for analyzing the data is depcited in the following diagram
 ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -43,7 +43,7 @@ Identifying sample dataset by applying filter on “Loan Status” = ‘Charged 
 
 
 ## Variable Identification for Analysis  
-- library - version 1.0
+- Below Variables have been identified for the analysis
   ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/27c7151e-8e5f-40d7-a49d-0a6947c4bc8b)
 
 
