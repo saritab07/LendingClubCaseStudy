@@ -110,6 +110,14 @@ It is noted that loan applicants for “Not Verified” Annual Salary have more 
 - It is noted that loan applicants for “Not Verified” Annual Salary have more Charged off loan status. This concludes that there is more probability of defaulting a loan in the Not verified category. The probable reasons could be the annual salary has been wrongly indicated by the loan applicant or could have changed(reduced) during the loan period due various reasons which might have led to the defaulting of loan repayment.
 - It is noted that loan applicants for “36 months” loan period have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the 36 month term category. The probable reasons could be that the Monthly Installment of repayment amount(EMI) would have been higher than the repayment capacity of the loan applicant. Therefore, checking the monthly salary and assessing the repayment capacity month-wise would be recommended. There could be multiple other parallel loans that an applicant has which could be leading to defaulting. Therefore, checking for other existing loans would be recommended.
 
+## Derived Metric
+### Derived Metric - Identification & Approach
+- Target column = Emp_length (purpose is to identify the cohort of users who are more likely to default loan repayment)
+- Performed String to Integer conversion for Emp_Length
+- Replaced null values with value “Undetermined Experience” 
+- Created a derived column named as “Emp_Exp” showing the categorization of employee_length
+
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/330dd9b8-97e8-4b1e-9e6f-7f7144af318a)
 
 
 Created by [@githubusername] - feel free to contact me!
