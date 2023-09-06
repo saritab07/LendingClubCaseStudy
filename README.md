@@ -1,20 +1,26 @@
 # Lending Club Case Study
-> A consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-- If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-- If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
-Problem statement is to identify patterns that can provide guidance to the company to predict applicant’s loan repayment behavior and accordingly approve loan application.
+> AÂ consumer finance companyÂ whichÂ specialises in lending various types of loans toÂ urban customers has the following business requirement. When the company receives a loan application, the company has to make a decision for loan approval based on the applicantâ€™s profile. TwoÂ types of risksÂ are associated with the bankâ€™s decision:
+- If the applicant isÂ likely to repay the loan, then not approving the loan results in aÂ loss of businessÂ to the company
+- If the applicant isÂ not likely to repay the loan,Â i.e. he/she is likely to default, then approving the loan may lead to aÂ financial lossÂ for the company
+Problem statement is to identify patterns that can provide guidance to the company to predict applicantâ€™s loan repayment behavior and accordingly approve loan application.
 
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Overall Approach for Analysis](#acknowledgements)
+* [Data Sourcing & Cleaning](#technologies-used)
+* [Variable Identification for Analysis](#conclusions)
+* [Univariate Analysis](#acknowledgements)
+* [Bivariate Analysis](#acknowledgements)
+* [Derived Metric](#acknowledgements)
+* [Correlation Analysis on Numeric Variable](#acknowledgements)
+* [Heat Map Analysis](#acknowledgements)
+* [Overall Analysis Conclusion](#acknowledgements)
+* [Recommendation](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
+## Overall Approach for Analysis
 - Provide general information about your project here.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
