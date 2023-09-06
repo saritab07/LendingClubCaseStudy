@@ -28,11 +28,18 @@ Problem statement is to identify patterns that can provide guidance to the compa
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Data Sourcing & Data Cleaning
+- Data Sourcing : Data provided for the case study in the module has been used
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/08c46ee6-021d-44a4-b690-2c5b8ffd63ca)
+
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/3bd62b0f-599d-47d2-95ed-a1d8ef0227af)
+- Data Cleaning Steps:
+Missing Value Check
+Dropping columns with more than or equal to 60% null values
+Checking for unique counts
+Identifying sample dataset by applying filter on “Loan Status” = ‘Charged off’ for the analysis
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/712749a8-302b-4b6e-815f-0d25244efcef)
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/d7ea6418-a716-44a0-9937-62fdfe48219c)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
