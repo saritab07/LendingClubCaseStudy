@@ -22,9 +22,7 @@ Problem statement is to identify patterns that can provide guidance to the compa
 
 ## Overall Approach for Analysis
 - Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
