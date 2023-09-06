@@ -22,7 +22,7 @@ Problem statement is to identify patterns that can provide guidance to the compa
 
 ## Overall Approach for Analysis
 - Provide general information about your project here.
-- ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -42,21 +42,54 @@ Identifying sample dataset by applying filter on “Loan Status” = ‘Charged 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
+## Variable Identification for Analysis  
 - library - version 1.0
-- library - version 2.0
-- library - version 3.0
+  ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/27c7151e-8e5f-40d7-a49d-0a6947c4bc8b)
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Univariate Analysis
+- Using the numeric columns identified, below analysis results found:
+  - More loan was given on “Term” with 36 months in comparison to 60 months
+  - More loan was given for a “Funded Amount” in the range of 5000 – 15000
+  
+
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/572e77a9-b251-4eec-aad8-615c568e49ed)
 
 
-## Contact
+  - More loan in on lower “Interest Rate” provided. Interest rates have been categorized from “Low” to “Very High” for analysis. 
+
+
+
+## Bivariate Analysis
+### Bivariate Analysis - Details
+A) Bivariate analysis has been conducted on the Target Variable of “Loan Status = ‘Charged off’” for ‘Purpose’ to identify the pattern for probable defaulting
+  ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/0180bde7-cb1a-434b-8f81-44eadc5b7bf9)
+
+#### Analysis Conclusion
+It is noted that loan applicants for “Debt Consolidation” purpose have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the Debt Consolidation category
+
+B) Bivariate analysis has been conducted on the Target Variable of “Loan Status = ‘Charged off’” for ‘Grade’ to identify the pattern for probable defaulting
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/7350d54d-3710-45a7-8d58-54dd0468f893)
+
+#### Analysis Conclusion
+It is noted that loan applicants for “Grade B” have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the Grade B category 
+
+C) Bivariate analysis has been conducted on the Target Variable of “Loan Status = ‘Charged off’” for ‘Term’ to identify the pattern for probable defaulting
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/f575791b-c6b3-42b5-ad6c-ba7ab3086963)
+
+#### Analysis Conclusion
+It is noted that loan applicants for “36 months” loan period have more Charged off loan status. This concludes that there is a more probability of defaulting a loan in the 36 month term category. The probable reasons could be that the Monthly Installment of repayment amount(EMI) would have been higher than the repayment capacity of the loan applicant. Therefore, checking the monthly salary and assessing the repayment capacity month-wise would be recommended. There could be multiple other parallel loans that an applicant has which could be leading to defaulting. Therefore, checking for other existing loans would be recommended.
+
+D) Bivariate analysis has been conducted on the Target Variable of “Loan Status = ‘Charged off’” for ‘Verification_Status’ to identify the pattern for probable defaulting
+![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/8e83fc64-d88e-436d-8739-9fee60506207)
+
+
+#### Analysis Conclusion
+It is noted that loan applicants for “Not Verified” Annual Salary have more Charged off loan status. This concludes that there is more probability of defaulting a loan in the Not verified category. The probable reasons could be the annual salary has been wrongly indicated by the loan applicant or could have changed(reduced) during the loan period due various reasons which might have led to the defaulting of loan repayment. 
+
+
 Created by [@githubusername] - feel free to contact me!
 
 
