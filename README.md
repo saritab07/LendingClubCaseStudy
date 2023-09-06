@@ -21,8 +21,9 @@ Problem statement is to identify patterns that can provide guidance to the compa
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## Overall Approach for Analysis
--The overall approach taken for analyzing the data is depcited in the following diagram
-![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
+- The overall approach taken for analyzing the data is depcited in the following diagram
+
+  ![image](https://github.com/saritab07/LendingClubCaseStudy/assets/97290022/e0398495-ee70-43b1-a5a7-29cfbebd7695)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
