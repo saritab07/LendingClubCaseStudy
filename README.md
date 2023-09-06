@@ -16,7 +16,7 @@ Problem statement is to identify patterns that can provide guidance to the compa
 * [Correlation Analysis on Numeric Variable](#acknowledgements)
 * [Heat Map Analysis](#acknowledgements)
 * [Overall Analysis Conclusion](#acknowledgements)
-* [Recommendation](#acknowledgements)
+* [Recommendation Based on Analysis](##FinalRecommendationBasedonAnalysis)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
