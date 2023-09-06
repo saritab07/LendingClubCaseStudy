@@ -7,7 +7,7 @@ Problem statement is to identify patterns that can provide guidance to the compa
 
 
 ## Table of Contents
-* [Overall Approach for Analysis](#acknowledgements)
+* [Overall Approach for Analysis](##overallapproachforanalysis)
 * [Data Sourcing & Cleaning](#technologies-used)
 * [Variable Identification for Analysis](#conclusions)
 * [Univariate Analysis](#acknowledgements)
